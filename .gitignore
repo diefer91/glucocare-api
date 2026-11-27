@@ -9,3 +9,7 @@ npm-debug.log*
 
 # macOS
 .DS_Store
+
+# Reportes generados automáticamente
+coverage/
+reports/

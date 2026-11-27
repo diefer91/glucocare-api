@@ -67,24 +67,3 @@ app.get('/patients/:id/medications', (req, res) => {
 });
 
 module.exports = app;
-
-module.exports.evaluarDatos = function (a, b, c, d, e, f, g, h) {
-  if (a) {
-    if (b) {
-      if (c) {
-        if (d) {
-          if (e) {
-            if (f) {
-              if (g) {
-                if (h) {
-                  return true;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  return false;
-};
